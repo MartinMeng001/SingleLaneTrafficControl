@@ -1,0 +1,13 @@
+traffic:
+  tcp:
+    port: 8130
+    threads: 10
+    heartbeat:
+      timeout: 60000  # 心跳超时时间(毫秒)
+
+logging:
+  level:
+    com.traffic.control: DEBUG
+
+server:
+  port: 8080  # Web管理端口
